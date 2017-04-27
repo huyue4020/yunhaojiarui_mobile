@@ -1,0 +1,36 @@
+.menu-list{
+	background-color:#ffffff;
+	position:fixed;
+	top:0px;
+	z-index:10;
+	display:none;
+	width:3.2rem;
+	height:100%;
+	ul{
+		width:60rem;
+		padding-top:100px;
+		li{
+			height:48px;
+			a{
+				display:block;
+				width:3.2rem;
+				height:48px;
+				font-size:18px;
+				color:#000000;
+				line-height:48px;
+				text-align:center;
+				position:relative;
+				&:before{
+					content:"";
+					width:36px;
+					height:2px;
+					background-color:#aa1d31;
+					position:absolute;
+					bottom: 0px;
+					left:50%;
+					margin-left:-18px;
+				}
+			}
+		}		
+	}
+}

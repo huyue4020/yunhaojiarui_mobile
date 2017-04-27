@@ -1,0 +1,115 @@
+/**
+ * Main Style
+ * @author huyue
+ */
+body,html{
+	font-size: 31.25vw;
+}
+.mobile-container{
+	width: 100%;
+	height: auto;
+	position:relative;
+	max-width: 3.40rem;
+	margin: 0px auto;
+	.header{
+		width:3.40rem;
+		height:47px;
+		background-color: rgba(171,27,27,0.80);
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		z-index: 100;
+		.header-box{
+			position:relative;
+			margin:0 auto;
+			a:nth-child(1){
+				width:105px;
+				height:25px;
+				background: url("../../images/logo.png") no-repeat 100% 100%;
+				position:absolute;
+				top:12px;
+				left:0.16rem;
+
+			}
+			a:nth-child(2){
+				width:25px;
+				height:25px;
+				background: url("../../images/icon_menu.png") no-repeat 100% 100%;
+				position:absolute;
+				top:12px;
+				right:0.37rem;
+			}
+		}
+	}
+	.pro-nav{
+		height:1.77rem;
+		position:relative;
+		img{
+			width:100%;
+		}
+		ul{
+			position:absolute;
+			bottom: 0px;
+			left:0px;
+			width:100%;
+			height:0.28rem;
+			line-height: 0.28rem;
+			background-color:#2b2b2b;
+			color: #ffffff;
+			li{
+				float: left;
+				font-size:0.12rem;
+				text-align: center;
+				a{
+					color: #ffffff;
+				}
+				&:nth-child(1){
+					width:1.14rem;
+					position:relative;
+					margin-right: 0.6rem;
+				}
+				&:nth-child(2){
+					width:0.71rem;
+					position:relative;
+				}
+				&:nth-child(4){
+					width:0.71rem;
+					position:relative;
+				}
+			}
+			.pro-nav-active{
+				a{
+					&:after{
+						content:"";
+						width:0.29rem;
+						height:1px;
+						background-color:#ffffff;
+						position:absolute;
+						bottom:3px;
+						left:50%;
+						margin-left: -0.14rem;
+					}
+				}
+			}
+		}
+	}
+	.pro-list{
+		width:100%;
+		ul{
+			li{
+				height:1.11rem;
+				position:relative;
+				a{
+					position:absolute;
+					top:0px;
+					left:0px;
+					width:100%;
+					height:1.11rem;
+					img{
+						width:100%;
+					}
+				}
+			}
+		}
+	}
+}

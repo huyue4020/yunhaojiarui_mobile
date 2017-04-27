@@ -1,0 +1,25 @@
+<div class="footer-slogan">
+	<p>专注于创造精彩故事 ————</p>
+	<span><a href="index.html">CONTACT US</a></span>
+</div>
+<div class="footer-contact">
+	<div class="footer-contact-wechat">
+		<img src="images/wechat.png" alt="云皓嘉瑞官方微信">
+		<span>官方微信</span>
+	</div>
+	<div class="footer-contact-weibo">
+		<a href="http://weibo.com/u/6085624015?refer_flag=1001030201_&amp;is_hot=1">
+			<img src="images/weibo.png" alt="云皓嘉瑞官方微博">
+			<span>官方微博</span>		
+		</a>
+	</div>
+</div>
+<div class="footer-back-top">
+	<img src="images/project/back-top.png" alt="返回顶部">
+	<span>
+		<a href="#goto-top">BACK TO TOP</a>
+	</span>
+</div>
+<div class="footer-text">
+	云皓嘉瑞文化传播有限公司 版权所有 京ICP备12033656号-7
+</div>

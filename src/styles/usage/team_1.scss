@@ -1,0 +1,66 @@
+/**
+ * Main Style
+ * @author huyue
+ */
+body,html{
+	font-size: 31.25vw;
+}
+.mobile-container{
+	width: 100%;
+	height: auto;
+	position:relative;
+	max-width: 3.40rem;
+	margin: 0px auto;
+	.header{
+		width:3.40rem;
+		height:47px; 
+		background-color: rgba(171,27,27,0.80);
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		z-index: 100;
+		.header-box{
+			position:relative;
+			margin:0 auto;
+			a:nth-child(1){
+				width:105px;
+				height:25px;
+				padding-left: 32px;
+				background: url("../../images/project/btn-back.png") no-repeat center left;
+				position:absolute;
+				top:12px;
+				left:0.16rem;
+				font-size:17px;
+				color:#ffffff;
+				line-height:25px;
+
+			}
+			a:nth-child(2){
+				width:25px;
+				height:25px;
+				background: url("../../images/icon_menu.png") no-repeat 100% 100%;
+				position:absolute;
+				top:12px;
+				right:0.37rem;
+			}
+		} 
+	}
+	.team-content{
+		.team-pic{
+			margin-top: 48px;
+			width:3.20rem;
+			height:3.89rem;
+			img{
+				width:100%;
+			}
+		}
+		.team-text{
+			padding:0.18rem;
+			p{
+				display:block;
+				width:2.85rem;
+				font-size:13px;
+			}
+		}
+	}
+}
